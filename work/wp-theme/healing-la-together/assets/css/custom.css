@@ -1,0 +1,43 @@
+/* Healing Los Angeles Together — small enhancements not covered by core block styles */
+
+.hlat-newsletter-form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	margin-top: 1.5rem;
+}
+
+.hlat-newsletter-form input[type="email"] {
+	border: 0;
+	border-radius: 2px;
+	background: #ffffff;
+	padding: 0.75rem 1rem;
+	font-size: 0.875rem;
+	color: #12304a;
+}
+
+.hlat-newsletter-form input[type="email"]::placeholder {
+	color: #84909a;
+}
+
+.hlat-newsletter-form button {
+	border: 0;
+	border-radius: 9999px;
+	background: #d4a017;
+	color: #12304a;
+	padding: 0.75rem 1.25rem;
+	font-size: 0.625rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	cursor: pointer;
+	transition: transform 0.2s ease;
+}
+
+.hlat-newsletter-form button:hover {
+	transform: translateY(-2px);
+}
+
+.wp-block-cover__video-background {
+	object-fit: cover;
+}
